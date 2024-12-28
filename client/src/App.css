@@ -1,0 +1,13 @@
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  body {
+    min-height: 100%;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #007da3;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}

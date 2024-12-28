@@ -1,0 +1,93 @@
+.reg-container {
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.reg-form {
+    padding: 15px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+}
+.reg-title {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+.reg-info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.reg-info label {
+    margin-top: 8px;
+}
+.reg-info input {
+    width: 100%;
+    padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.reg-info:last-of-type input {
+    margin-bottom: 10px;
+}
+
+.reg-info input:focus {
+    border-color: #87cefa;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.span-1 {
+    position: absolute;
+    background: "none";
+    border: "none";
+    cursor: pointer;
+    top: 58%;
+    right: 8%;
+    color: #a9a9a9;
+}
+
+.span-2 {
+    position: absolute;
+    background: "none";
+    border: "none";
+    cursor: pointer;
+    top: 50%;
+    right: 8%;
+    color: #a9a9a9;
+}
+
+.reg-container button {
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color:  white;
+    background-color: #007da3;
+    padding: 6px 15px;
+    font-size: 18px;
+}
+
+.reg-container button:hover {
+    background-color: #0A5EB0;
+}
+.already-log {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.already-log a{
+    color: white;
+}
+

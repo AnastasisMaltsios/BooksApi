@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 70px;
+}
+
+.navbar h1 {
+    font-size: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 22px;
+    gap: 5rem;
+}
+
+.nav-list:last-child {
+    margin-right: 6rem;
+}
+
+.nav-list li a{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 3px 20px;
+    transition: 0.5 ;
+
+}
+.nav-list li a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.dash-container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 70px 100px 30px 100px;
+}
+
+.dash-title {
+    font-size: 45px;
+}
+.dash-title span {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    width: 90%;
+    margin: 20px 0 50px 0;
+}
+
+.dash-container p {
+    line-height: 2.2;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
