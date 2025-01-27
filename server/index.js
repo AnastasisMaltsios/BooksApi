@@ -24,12 +24,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(express.json());
 
-
-app.get("/", (req, res) => {
-  res.send("Server is running.");
-});
-
-
 app.post("/register", async (req, res) => {
   const {name, email, password} = req.body;
   const hashPassword = await bcrypt.hash(password, 10);
